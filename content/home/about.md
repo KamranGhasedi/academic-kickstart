@@ -10,8 +10,10 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
+    "Machine Learning",
+    "Deep Learning",
+    "Big Data Mining",
+    "Computational Biology",
     "Information Retrieval"
   ]
 
@@ -35,4 +37,4 @@ weight = 1
 
 # Biography
 
-My main research interest lies in the field of Machine Learning and Big Data Mining. In particular, I focus on the development of efficient algorithms for unsupervised, semi-supervised and weakly supervised learnings on different applications.
+I am a Ph.D. candidate in <a href="http://www.engineering.pitt.edu/Departments/Electrical-Computer/" target="_blank" rel="nofollow"> the Department of Electrical and Computer Engineering</a> at <a href="http://www.pitt.edu" target="_blank" rel="nofollow">Pittsburgh University</a>. My supervisor is <a href="http://www.pitt.edu/~heh45/index.html" target="_blank" rel="nofollow">Dr. Heng Huang</a>, and my main research interest lies in the field of Machine Learning and Big Data Mining. In particular, I focus on developing efficient unsupervised, semi-supervised and weakly supervised learnings algorithms on different applications.
