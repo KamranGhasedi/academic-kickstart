@@ -3,14 +3,14 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://kamranghasedi.github.io/"
+baseurl = "/"
 
 # Title of your site
-title = "Kamran Ghasedi"
+title = "Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 Kamran Ghasedi"
+copyright = "&copy; 2018"
 
 theme = "academic"
 enableEmoji = true
@@ -27,7 +27,11 @@ googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
+hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
+
+# Get last modified date for content from Git?
+enableGitInfo = false
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
@@ -43,27 +47,27 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "dark"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
   # Your details.
-  name = "Kamran Ghasedi"
-  role = "PhD Candidate"
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Pittsburgh", url = "http://www.pitt.edu/" } ]
+  organizations = [ { name = "Stanford University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "kamran.ghasedi@gmail.com"
-  address = "Room 1108, Benedum Hall, 3700 O'Hara St, Pittsburgh, PA 15213, USA"
-  office_hours = "Email for appointment"
-  phone = ""
-  skype = ""
+  email = "test@example.org"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -151,6 +155,11 @@ defaultContentLanguageInSubdir = false
   # Enable native social sharing buttons?
   sharing = true
 
+  # Privacy pack
+  #   Show a cookie consent message to visitors
+  #   Anonymize IP in Google Analytics (if enabled)
+  privacy_pack = false
+
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
@@ -217,22 +226,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "kamran.ghasedi@gmail.com"
+    link = "mailto:test@example.org"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/KGhasediEn"
+    link = "//twitter.com/GeorgeCushen"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.com/citations?user=l2ARN0kAAAAJ&hl=en"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/KamranGhasedi"
+    link = "//github.com/gcushen"
 
 
 # Navigation Links
@@ -249,24 +258,19 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "News"
-  url = "#posts"
+  name = "Publications"
+  url = "#publications_selected"
   weight = 2
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications"
+  name = "Posts"
+  url = "#posts"
   weight = 3
 
-#[[menu.main]]
-#  name = "Selected Publications"
-#  url = "#publications_selected"
-#  weight = 4
-
-#[[menu.main]]
- # name = "Projects"
- # url = "#projects"
- # weight = 4
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
 
 [[menu.main]]
   name = "Teaching"
