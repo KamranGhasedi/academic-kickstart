@@ -1,12 +1,12 @@
 +++
 title = "Our paper was accepted at CVPR 2018!"
-date = 2018-04-29T11:48:41-04:00  # Schedule page publish date.
+date = 2018-02-18T11:48:41-04:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-04-29T11:48:41-04:00
-time_end = 2018-04-29T11:48:41-04:00
+time_start = 2018-02-18T11:48:41-04:00
+#time_end = 2018-04-29T11:48:41-04:00
 
 # Abstract and optional shortened version.
 abstract = ""

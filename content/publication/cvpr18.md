@@ -42,14 +42,14 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://openaccess.thecvf.com/content_cvpr_2018/papers/Dizaji_Unsupervised_Deep_Generative_CVPR_2018_paper.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
+url_slides = "pdf/cvpr18_slides.pdf"
+url_video = "pdf/cvpr18_video.mp4"
+url_poster = "pdf/cvpr18_poster.pdf"
 url_source = ""
 
 # Custom links (optional).

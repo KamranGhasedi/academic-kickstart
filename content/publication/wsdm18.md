@@ -47,9 +47,9 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "pdf/wsdm18_slides.pdf"
 url_video = ""
-url_poster = ""
+url_poster = "pdf/wsdm18_poster.pdf"
 url_source = ""
 
 # Custom links (optional).

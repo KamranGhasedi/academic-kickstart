@@ -6,7 +6,7 @@
 baseurl = "https://kamranghasedi.github.io/"
 
 # Title of your site
-title = "Kamran Ghasedi"
+title = "Kamran Ghasedi Dizaji"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -58,10 +58,10 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "University of Pittsburgh", url = "http://www.pitt.edu/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "portrait1.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "kamran.ghasedi@gmail.com"
   address = "Room 1108, Benedum Hall, 3700 O'Hara St, Pittsburgh, PA 15213, USA"
-  office_hours = "Email for appointment"
+  office_hours = "Contact with Email for meetings"
   phone = ""
   skype = ""
   telegram = ""
@@ -217,7 +217,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "kamran.ghasedi@gmail.com"
+    link = "mailto:kamran.ghasedi@gmail.com"
 
   [[params.social]]
     icon = "twitter"

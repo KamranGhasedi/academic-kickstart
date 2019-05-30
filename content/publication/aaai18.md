@@ -42,14 +42,14 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17270/15854"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "pdf/aaai18_slides.pdf"
 url_video = ""
-url_poster = ""
+url_poster = "pdf/aaai18_poster.pdf"
 url_source = ""
 
 # Custom links (optional).
