@@ -43,7 +43,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://par.nsf.gov/servlets/purl/10074505"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
